@@ -1,0 +1,27 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "types": "module",
+  "scripts": {
+    "start": "nodemon ./src/server.cjs",
+    "lint": "eslint ./src"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "esm": "^3.2.25",
+    "nanoid": "^3.1.22",
+    "requirejs": "^2.3.6"
+  }
+}
